@@ -1,0 +1,26 @@
+<mat-card>
+  <mat-card-title>Register</mat-card-title>
+  <mat-card-content>
+    <form>
+      <mat-form-field appearance="fill">
+        <mat-label>Matriculation number</mat-label>
+        <input matInput placeholder="Enter your matriculation number">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput type="email" placeholder="Enter your email">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Password</mat-label>
+        <input matInput type="password" placeholder="Create a password">
+      </mat-form-field>
+      <button mat-raised-button color="primary" routerLink="/login">Register</button>
+
+      <!-- Link zum Zurückkehren zur Login-Seite -->
+      <a routerLink="/login" style="display: block; text-align: center; margin-top: 20px;">
+        Bereits registriert? Zurück zum Login
+      </a>
+    </form>
+  </mat-card-content>
+</mat-card>
+
